@@ -28,7 +28,7 @@ index 6b8f51b..98c5810 100644
  static char text[BUFSIZ] = "";
  static char *embed;
  static int bh, mw, mh;
-@@ -126,6 +129,21 @@drawitem(struct item *item, int x, int y, int w)
+@@ -126,6 +129,21 @@ drawitem(struct item *item, int x, int y, int w)
  	return drw_text(drw, x, y, w, bh, lrpad / 2, item->text, 0);
  }
  
@@ -78,3 +78,4 @@ index 6b8f51b..98c5810 100644
  
 -- 
 2.19.2
+
